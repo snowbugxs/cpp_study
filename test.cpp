@@ -302,4 +302,8 @@ int modarry(double *parry, int size)
 // local master change 2
 // in dev change 1
 // in master change 2
+<<<<<<< HEAD
 // local master chgange 3
+=======
+// origin change 3 
+>>>>>>> c4213684bc1c38744ea7eb868b04d8d7771aef60
