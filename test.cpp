@@ -50,12 +50,12 @@ class Box
     char name[20] = "book1";
     int page = 20;
 
-  public:
+public:
     int age = 30;
     double volume;
     static int objectNum;
 
-  public:
+public:
     Box(double b)
     {
         volume = b;
@@ -76,7 +76,7 @@ class Box
 };
 class SmallBox : Box
 {
-  public:
+public:
     void output(void)
     {
         cout << age << endl;
@@ -96,18 +96,18 @@ int Box::objectNum = 1;
 
 class Animal
 {
-  public:
+public:
     virtual void printani()
     {
         cout << "animal age is" << endl;
     }
 
-  public:
+public:
     int age = 8;
 };
 class Dog : public Animal
 {
-  public:
+public:
     void printani()
     {
         cout << "dog age is" << endl;
@@ -116,7 +116,7 @@ class Dog : public Animal
 };
 class Bird
 {
-  public:
+public:
     Dog dog1;
 };
 // 1. 模板的意义为了 重用代码，思想在 先不指定数据类型，调用时指定数据类型
@@ -137,7 +137,7 @@ T1 func(T1 &t1, T2 &t2)
 template <typename C1, typename C2>
 class Clsmod
 {
-  public:
+public:
     // Clsmod(){}
     void func1(C1 c1, C2 c2)
     {
@@ -302,6 +302,6 @@ int modarry(double *parry, int size)
 // local master change 2
 // in dev change 1
 // in master change 2
+// local master chgange 3
 // origin change 3
-
 // local change 5
